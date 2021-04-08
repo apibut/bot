@@ -28,7 +28,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「❗」BELUM DAFTAR*\n*cara daftar ${prefix}daftar nama|umur* \n\n*contoh ${prefix}daftar MrG{108P}|18*`
+	return`*「❗」BELUM DAFTAR*\n*cara daftar ${prefix}daftar nama|umur* \n\n*contoh ${prefix}daftar 𝐓-𝐁𝐎𝐓|18*`
 }
 
 exports.baned = () => {
@@ -88,7 +88,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender, botName) => {
-	return`*「 REGISTRASI BERHASIL 」*\nUntuk User Info :\n\n*➸ Nama : ${namaUser}*\n*➸ Nomor : wa.me/${sender.split("@")[0]}*\n*➸ Umur : ${umurUser}*\n*➸ Waktu Pendaftaran : ${time}*\n\n*「SN」: ${serialUser}*\n_NOTE : Pesan ini sangat penting :v_`
+	return`*「 REGISTRASI BERHASIL 」*\nUntuk User Info :\n\n*➸ Nama : ${namaUser}*\n*➸ Nomor : wa.me/${sender.split("@")[0]}*\n*➸ Umur : ${umurUser}*\n*➸ Waktu Pendaftaran : ${time}*\n\n*「SN」: ${serialUser}*\n_NOTE : Pesan ini sangat penting\n𝐓-𝐁𝐎𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋`
 }
 
 exports.cmdnf = (prefix, command) => {
@@ -101,6 +101,7 @@ exports.owneresce = (pushname) => {
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
 *「 SELAMAT 」*
+𝐓-𝐁𝐎𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋
 ➸ *Nama* : ${pushname}
 ➸ *Nomor* : wa.me/${sender.split("@")[0]}
 ➸ *Xp* : ${getLevelingXp(sender)}
@@ -108,7 +109,7 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 `}
  
 exports.limitend = (pushname) => {
-	return`*maaf ${pushname} limit hari ini habis*\n*limit di reset setiap jam 24:00*`
+	return`*maaf ${pushname} limit hari ini habis*\n*limit di reset setiap jam 24:00*\n𝐓-𝐁𝐎𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋`
 }
 
 exports.limitcount = (limitCounts) => {
@@ -124,5 +125,5 @@ exports.satukos = () => {
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓\n┃╭───────────────────\n┃│➸ NAMA : ${pushname}\n┃│➸ NOMOR : ${sender.split("@")[0]}\n┃│➸ UANG : ${uangkau}\n┃╰───────────────────\n┗━━━━━━━━━━━━━━━━━━━━┛`
+	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓\n┃╭───────────────────\n┃│➸ NAMA : ${pushname}\n┃│➸ NOMOR : ${sender.split("@")[0]}\n┃│➸ UANG : ${uangkau}\n┃╰───────────────────\n┗━━━━━━━━━━━━━━━━━━━━┛\n𝐓-𝐁𝐎𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋`
 }
